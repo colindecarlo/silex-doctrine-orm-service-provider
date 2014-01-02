@@ -1,0 +1,7 @@
+{
+	"name": "colindecarlo/silex-doctrine-orm-service-provider",
+	"require": {
+		"silex/silex": "1.0.*",
+		"doctrine/orm": "2.5.*@dev"
+	}
+}
