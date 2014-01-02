@@ -12,9 +12,9 @@ class DoctrineOrmServiceProvider implements ServiceProviderInterface
 {
 	public function register(Application $app)
 	{
-		$app['orm.options'] = [];
+		$app['orm.options'] = array();
 
-		$app['orm.conn'] = [];
+		$app['orm.conn'] = array();
 
 		$app['orm.config'] = $app->share(function ($app) {
 			$entityDirs = $app['orm.options']['entity_dirs'];
